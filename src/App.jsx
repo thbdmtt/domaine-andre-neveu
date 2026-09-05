@@ -8,7 +8,6 @@ import Cellar from "./components/Cellar";
 import Visiting from "./components/Visiting";
 import Export from "./components/Export";
 import Footer from "./components/Footer";
-import QuickMobileBar from "./components/QuickMobileBar";
 
 import "./styles/variables.css";
 import "./styles/base.css";
@@ -32,7 +31,6 @@ function AppContent() {
         <Export />
       </main>
       <Footer />
-      <QuickMobileBar />
     </>
   );
 }
