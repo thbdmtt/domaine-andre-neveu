@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.andre-neveu.fr/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.andre-neveu.fr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.andre-neveu.fr/en/" />
+    <image:image>
+      <image:loc>https://www.andre-neveu.fr/media/identity/diapo-accueil-1--3a3c6f9c61.jpg</image:loc>
+      <image:title>Vignoble du Domaine André Neveu à Chavignol</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.andre-neveu.fr/wines/packshots/packshot-monts-damnes.png</image:loc>
+      <image:title>Sancerre Blanc Les Monts Damnés - Domaine André Neveu</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.andre-neveu.fr/wines/packshots/packshot-grand-fricambault-silex.png</image:loc>
+      <image:title>Sancerre Blanc Le Grand Fricambault Silex - Domaine André Neveu</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.andre-neveu.fr/en/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.andre-neveu.fr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.andre-neveu.fr/en/" />
+  </url>
+</urlset>

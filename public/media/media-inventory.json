@@ -1,0 +1,366 @@
+{
+  "totalScraped": 58,
+  "classifiedCount": 50,
+  "categories": {
+    "terroir": [
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/terroirs/1z.jpg",
+        "relativeFile": "media/terroir/terroir-1z--aba68e516c.jpg",
+        "width": 950,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/vigne/1z.jpg",
+        "relativeFile": "media/terroir/terroir-1z--6c26e51024.jpg",
+        "width": 950,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/vigne/2z.jpg",
+        "relativeFile": "media/terroir/terroir-2z--1bbc2d7a9f.jpg",
+        "width": 950,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/vigne/3z.jpg",
+        "relativeFile": "media/terroir/terroir-3z--e9fd725ab5.jpg",
+        "width": 950,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/vigne/4z.jpg",
+        "relativeFile": "media/terroir/terroir-4z--d673121912.jpg",
+        "width": 950,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/vigne/5z.jpg",
+        "relativeFile": "media/terroir/terroir-5z--d6e16cbab6.jpg",
+        "width": 951,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/vigne/6z.jpg",
+        "relativeFile": "media/terroir/terroir-6z--a6ef262035.jpg",
+        "width": 653,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/vigne/8z.jpg",
+        "relativeFile": "media/terroir/terroir-8z--572cd3035c.jpg",
+        "width": 950,
+        "height": 436,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/vigne/9z.jpg",
+        "relativeFile": "media/terroir/terroir-9z--d34c6b296a.jpg",
+        "width": 581,
+        "height": 436,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/terroirs/argilocalcaire.jpg",
+        "relativeFile": "media/terroir/terroir-argilocalcaire--bda42312e7.jpg",
+        "width": 100,
+        "height": 100,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/terroirs/caillotes.jpg",
+        "relativeFile": "media/terroir/terroir-caillotes--a4e206a6cd.jpg",
+        "width": 100,
+        "height": 100,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/terroirs/calcaire.jpg",
+        "relativeFile": "media/terroir/terroir-calcaire--d6c99308f5.jpg",
+        "width": 100,
+        "height": 100,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/terroirs/silex.jpg",
+        "relativeFile": "media/terroir/terroir-silex--52c9be3899.jpg",
+        "width": 100,
+        "height": 100,
+        "format": "jpeg"
+      }
+    ],
+    "cellar": [
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/cave/10z.jpg",
+        "relativeFile": "media/cellar/chai-10z--88aaf0866c.jpg",
+        "width": 582,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/cave/11z.jpg",
+        "relativeFile": "media/cellar/chai-11z--b9d02fe35a.jpg",
+        "width": 950,
+        "height": 434,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/cave/12z.jpg",
+        "relativeFile": "media/cellar/chai-12z--ff17deb710.jpg",
+        "width": 950,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/cave/2z.jpg",
+        "relativeFile": "media/cellar/chai-2z--a3a8db93ee.jpg",
+        "width": 951,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/cave/3z.jpg",
+        "relativeFile": "media/cellar/chai-3z--57e47a5bd4.jpg",
+        "width": 951,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/cave/4z.jpg",
+        "relativeFile": "media/cellar/chai-4z--2f2833e07a.jpg",
+        "width": 950,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/cave/5z.jpg",
+        "relativeFile": "media/cellar/chai-5z--e50b99f562.jpg",
+        "width": 950,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/cave/6z.jpg",
+        "relativeFile": "media/cellar/chai-6z--f49a166cc1.jpg",
+        "width": 950,
+        "height": 436,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/cave/7z.jpg",
+        "relativeFile": "media/cellar/chai-7z--36b204d75d.jpg",
+        "width": 653,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/cave/8z.jpg",
+        "relativeFile": "media/cellar/chai-8z--d542451fac.jpg",
+        "width": 950,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/cave/9z.jpg",
+        "relativeFile": "media/cellar/chai-9z--3bd78f77ac.jpg",
+        "width": 950,
+        "height": 435,
+        "format": "jpeg"
+      }
+    ],
+    "identity": [
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/index/arabesque.png",
+        "relativeFile": "media/identity/arabesque--ada4df477e.png",
+        "width": 186,
+        "height": 145,
+        "format": "png"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/index/diapo_accueil_1.jpg",
+        "relativeFile": "media/identity/diapo-accueil-1--3a3c6f9c61.jpg",
+        "width": 900,
+        "height": 600,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/index/diapo_accueil_2.jpg",
+        "relativeFile": "media/identity/diapo-accueil-2--25206b30ba.jpg",
+        "width": 900,
+        "height": 600,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/index/diapo_accueil_3.jpg",
+        "relativeFile": "media/identity/diapo-accueil-3--2a98a9d0a9.jpg",
+        "width": 900,
+        "height": 600,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/index/diapo_accueil_4.jpg",
+        "relativeFile": "media/identity/diapo-accueil-4--aa8848fb9f.jpg",
+        "width": 900,
+        "height": 600,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/index/diapo_accueil_5.jpg",
+        "relativeFile": "media/identity/diapo-accueil-5--568a45578f.jpg",
+        "width": 900,
+        "height": 600,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/themes/style/images/entete.jpg",
+        "relativeFile": "media/identity/entete--37d7e17345.jpg",
+        "width": 950,
+        "height": 66,
+        "format": "jpeg"
+      }
+    ],
+    "export": [
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/distribution/allemagne.png",
+        "relativeFile": "media/export/allemagne--c170fad9aa.png",
+        "width": 96,
+        "height": 80,
+        "format": "png"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/distribution/belgique.png",
+        "relativeFile": "media/export/belgique--1ca27aee53.png",
+        "width": 96,
+        "height": 80,
+        "format": "png"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/distribution/danemark.png",
+        "relativeFile": "media/export/danemark--22062d6236.png",
+        "width": 96,
+        "height": 80,
+        "format": "png"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/distribution/etats-unis.png",
+        "relativeFile": "media/export/etats-unis--3432941e71.png",
+        "width": 96,
+        "height": 80,
+        "format": "png"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/distribution/grande-bretagne.png",
+        "relativeFile": "media/export/grande-bretagne--e84b49ed7d.png",
+        "width": 96,
+        "height": 80,
+        "format": "png"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/distribution/hong-kong.png",
+        "relativeFile": "media/export/hong-kong--15f5bdfbbd.png",
+        "width": 96,
+        "height": 80,
+        "format": "png"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/distribution/irlande.png",
+        "relativeFile": "media/export/irlande--691e1fbea1.png",
+        "width": 96,
+        "height": 80,
+        "format": "png"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/distribution/italie.png",
+        "relativeFile": "media/export/italie--aebf0ef1c9.png",
+        "width": 96,
+        "height": 80,
+        "format": "png"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/distribution/japon.png",
+        "relativeFile": "media/export/japon--4f0f88ca21.png",
+        "width": 96,
+        "height": 80,
+        "format": "png"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/distribution/1z.jpg",
+        "relativeFile": "media/export/1z--01626a9735.jpg",
+        "width": 951,
+        "height": 435,
+        "format": "jpeg"
+      }
+    ],
+    "ui_ignored": [
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/commande/1z.jpg",
+        "relativeFile": "media/ui_ignored/1z--7885bd602f.jpg",
+        "width": 950,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/contact/1z.jpg",
+        "relativeFile": "media/ui_ignored/1z--d4674f99cf.jpg",
+        "width": 950,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/images/photo_fond/coordonnees/1z.jpg",
+        "relativeFile": "media/ui_ignored/1z--8c98c8f26d.jpg",
+        "width": 950,
+        "height": 435,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/themes/style/images/bottom.png",
+        "relativeFile": "media/ui_ignored/bottom--b81a99f090.png",
+        "width": 400,
+        "height": 9,
+        "format": "png"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/themes/style/images/fond_menu.gif",
+        "relativeFile": "media/ui_ignored/fond-menu--77e3636599.gif",
+        "width": 950,
+        "height": 27,
+        "format": "gif"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/themes/style/images/li_fiche.jpg",
+        "relativeFile": "media/ui_ignored/li-fiche--3a5f49ccc9.jpg",
+        "width": 20,
+        "height": 16,
+        "format": "jpeg"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/themes/style/images/logo.gif",
+        "relativeFile": "media/ui_ignored/logo--426977d784.gif",
+        "width": 1,
+        "height": 1,
+        "format": "gif"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/themes/style/images/motif.png",
+        "relativeFile": "media/ui_ignored/motif--4f192649b8.png",
+        "width": 8,
+        "height": 8,
+        "format": "png"
+      },
+      {
+        "originalUrl": "https://www.andre-neveu.fr/themes/style/images/page.jpg",
+        "relativeFile": "media/ui_ignored/page--0f326d6497.jpg",
+        "width": 950,
+        "height": 435,
+        "format": "jpeg"
+      }
+    ]
+  }
+}

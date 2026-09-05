@@ -1,0 +1,179 @@
+.terroirs-section {
+  background-color: var(--fond-sombre-secondaire);
+  border-top: 1px solid var(--ligne-sombre);
+  border-bottom: 1px solid var(--ligne-sombre);
+}
+
+.terroirs-tabs-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 2.5rem;
+  scrollbar-width: none;
+}
+
+.terroirs-tabs-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.terroirs-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  min-width: max-content;
+  padding: 0.25rem;
+}
+
+.terroir-tab-btn {
+  background: var(--panneau-sombre);
+  border: 1px solid var(--ligne-sombre);
+  border-radius: 8px;
+  padding: 0.85rem 1.5rem;
+  color: var(--texte-sombre);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: all 0.25s ease;
+  min-width: 220px;
+  min-height: 48px;
+}
+
+.terroir-tab-btn:hover {
+  border-color: var(--or-sceau);
+  transform: translateY(-2px);
+}
+
+.terroir-tab-btn.active {
+  background: rgba(132, 94, 35, 0.14);
+  border-color: var(--or-sceau-clair);
+  box-shadow: 0 4px 16px rgba(132, 94, 35, 0.25);
+}
+
+.tab-title {
+  font-family: var(--font-titres);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+  color: #ffffff;
+}
+
+.terroir-tab-btn.active .tab-title {
+  color: var(--or-sceau-clair);
+}
+
+.tab-sub {
+  font-size: 0.75rem;
+  color: var(--texte-sombre-muted);
+}
+
+/* Card */
+.terroir-display-card {
+  background: var(--panneau-sombre);
+  border: 1px solid var(--ligne-sombre);
+  border-radius: 12px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.terroir-info-side {
+  padding: 3rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.terroir-active-title {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  color: #ffffff;
+  margin: 0.85rem 0 1.25rem;
+}
+
+.terroir-active-desc {
+  font-size: 1.02rem;
+  color: var(--texte-sombre-muted);
+  line-height: 1.75;
+  margin-bottom: 1.75rem;
+}
+
+.terroir-profile-box {
+  background: rgba(255, 255, 255, 0.03);
+  border-left: 3px solid var(--or-sceau);
+  padding: 0.85rem 1.25rem;
+  border-radius: 0 6px 6px 0;
+  margin-bottom: 1.75rem;
+}
+
+.profile-label {
+  display: block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--or-sceau-clair);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.profile-val {
+  font-size: 0.95rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.rock-sample-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-top: 1px solid var(--ligne-sombre);
+  padding-top: 1.25rem;
+}
+
+.rock-thumb {
+  width: 54px;
+  height: 54px;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 1px solid var(--ligne-sombre);
+  flex-shrink: 0;
+}
+
+.rock-caption {
+  font-size: 0.78rem;
+  color: var(--texte-sombre-muted);
+  font-style: italic;
+}
+
+.terroir-visual-side {
+  position: relative;
+  min-height: 380px;
+}
+
+.terroir-landscape {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .terroir-display-card {
+    grid-template-columns: 1fr;
+  }
+  .terroir-visual-side {
+    min-height: 240px;
+    order: -1;
+  }
+  .terroir-info-side {
+    padding: 2rem 1.5rem;
+  }
+  .terroirs-tabs {
+    justify-content: flex-start;
+    padding: 0 1rem;
+  }
+  .terroir-tab-btn {
+    min-width: 180px;
+    padding: 0.75rem 1.15rem;
+  }
+}

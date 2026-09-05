@@ -1,0 +1,225 @@
+[
+  {
+    "num": 1,
+    "id": "monts-damnes",
+    "slug": "monts-damnes",
+    "kicker": "Blanc · Grand Terroir de Chavignol",
+    "name": "Sancerre Blanc — Les Monts Damnés",
+    "cuvee": "Les Monts Damnés",
+    "color": "blanc",
+    "vintage": 2024,
+    "appellation": "Sancerre Contrôlée",
+    "commune": "Chavignol",
+    "terroir": "Cote des Monts Damnés",
+    "soilType": "Argilo-calcaire (Terres Blanches)",
+    "exposition": "Plein sud, forte pente",
+    "grapeVariety": "100% Sauvignon Blanc",
+    "harvest": "Vendangé exclusivement à la main",
+    "vinification": "Vinification traditionnelle thermorégulée, élevage sur lies fines",
+    "agingPotential": "À boire jeune ou garde prolongée (10 ans et plus)",
+    "servingTemp": "10°C - 12°C",
+    "tasting": {
+      "eye": "Or pâle, reflets argentés brillants",
+      "nose": "Premier nez très intense à dominante variétale (buis, genêt, bourgeon de cassis) qui s'ouvre après aération sur la mirabelle, la poire William et la fleur d'acacia.",
+      "mouth": "Attaque souple, la bouche est pleine et grasse. Finale complexe avec persistance aromatique sur le souci, l'iris et de jolies nuances fruitées."
+    },
+    "foodPairings": [
+      "Poissons et viandes blanches en sauces",
+      "Crottin de Chavignol affiné",
+      "Homard grillé"
+    ],
+    "note": "Issu de la mythique et vertigineuse Côte des Monts Damnés, une cuvée d'une densité et d'une minéralité remarquables."
+  },
+  {
+    "num": 2,
+    "id": "le-manoir",
+    "slug": "le-manoir",
+    "kicker": "Blanc · Vieilles Vignes",
+    "name": "Sancerre Blanc — Le Manoir",
+    "cuvee": "Le Manoir",
+    "color": "blanc",
+    "vintage": 2025,
+    "appellation": "Sancerre Contrôlée",
+    "commune": "Chavignol",
+    "terroir": "Le Manoir",
+    "soilType": "Calcaire caillottes",
+    "exposition": "Coteaux ensoleillés",
+    "grapeVariety": "100% Sauvignon Blanc",
+    "harvest": "Vignes âgées de plus de 50 ans",
+    "vinification": "Cuves inox thermo-régulées, préservation du fruit pur",
+    "agingPotential": "3 à 7 ans",
+    "servingTemp": "9°C - 11°C",
+    "tasting": {
+      "eye": "Jaune pâle, reflets dorés limpides",
+      "nose": "Nez intense sur un profil variétal-fermentaire : fruits exotiques, pêche de vigne et agrumes mûrs.",
+      "mouth": "Arômes intenses, agréable rondeur, bel équilibre et remarquable longueur en bouche."
+    },
+    "foodPairings": [
+      "Apéritif",
+      "Poissons de Loire au beurre blanc",
+      "Viandes blanches rôties",
+      "Fromages de chèvre"
+    ],
+    "note": "La générosité des vieilles vignes de 50 ans alliée à la fraîcheur ciselée des caillottes."
+  },
+  {
+    "num": 3,
+    "id": "lf-calcaire",
+    "slug": "lf-calcaire",
+    "kicker": "Blanc · Caillottes & Calcaire",
+    "name": "Sancerre Blanc — LF Calcaire",
+    "cuvee": "LF Calcaire (Les Longues Fins)",
+    "color": "blanc",
+    "vintage": 2025,
+    "appellation": "Sancerre Contrôlée",
+    "commune": "Chavignol",
+    "terroir": "Les Longues Fins",
+    "soilType": "100% Calcaire pierreux",
+    "exposition": "Plateau et coteaux",
+    "grapeVariety": "100% Sauvignon Blanc",
+    "harvest": "Vendanges sélectionnées",
+    "vinification": "Cuves thermo-régulées, fermentation basse température",
+    "agingPotential": "À boire jeune (2 à 4 ans)",
+    "servingTemp": "9°C - 10°C",
+    "tasting": {
+      "eye": "Jaune pâle cristallin, reflets argentés",
+      "nose": "Nez intense et vif sur la fleur de sureau, la menthe verte froissée et la rhubarbe.",
+      "mouth": "Gras et rond en bouche, parfaitement équilibré par une trame minérale saline très désaltérante."
+    },
+    "foodPairings": [
+      "Apéritif raffiné",
+      "Plateau de fruits de mer",
+      "Poissons en sauce légère",
+      "Tartare de daurade"
+    ],
+    "note": "Un vin d'une éclatante pureté calcaire, d'une vivacité exemplaire."
+  },
+  {
+    "num": 4,
+    "id": "grand-fricambault-silex",
+    "slug": "grand-fricambault-silex",
+    "kicker": "Blanc · Terroir de Silex",
+    "name": "Sancerre Blanc — Le Grand Fricambault Silex",
+    "cuvee": "Le Grand Fricambault",
+    "color": "blanc",
+    "vintage": 2025,
+    "appellation": "Sancerre Contrôlée",
+    "commune": "Sancerre",
+    "terroir": "Coteau de Sancerre (Grand Fricambault)",
+    "soilType": "Silex pur (argiles à silex)",
+    "exposition": "Coteau escarpé",
+    "grapeVariety": "100% Sauvignon Blanc",
+    "harvest": "Vendanges à maturité optimale",
+    "vinification": "Cuves inox thermo-régulées, élevage prolongé",
+    "agingPotential": "5 à 8 ans (développe sa typicité de pierre à fusil avec le temps)",
+    "servingTemp": "10°C - 12°C",
+    "tasting": {
+      "eye": "Jaune pâle aux reflets argentés éclatants",
+      "nose": "Premier nez minéral et discret sur des notes de bière blanche, de jus de citron et de pierre à fusil.",
+      "mouth": "Sec, droit et fruité. Typicité minérale fumée très marquée, tension racée et grande finale pierreuse."
+    },
+    "foodPairings": [
+      "Huîtres de claire",
+      "Coquillages et crustacés",
+      "Crottin de Chavignol demi-sec",
+      "Saumon fumé"
+    ],
+    "note": "L'expression archétypale du silex sancerrois : tranchant, fumé et d'une noblesse minérale absolue."
+  },
+  {
+    "num": 5,
+    "id": "vieilles-vignes-rouge",
+    "slug": "vieilles-vignes-rouge",
+    "kicker": "Rouge · Élevage Fûts de Chêne",
+    "name": "Sancerre Rouge — Vieilles Vignes",
+    "cuvee": "Vieilles Vignes",
+    "color": "rouge",
+    "vintage": 2024,
+    "stockLimit": true,
+    "appellation": "Sancerre Contrôlée",
+    "commune": "Chavignol",
+    "terroir": "Coteaux de Chavignol",
+    "soilType": "Argilo-calcaire",
+    "exposition": "Sud / Sud-Est",
+    "grapeVariety": "100% Pinot Noir",
+    "harvest": "Vignes âgées de plus de 50 ans, rendements maîtrisés",
+    "vinification": "Vinifié et élevé en fûts de chêne français de plusieurs vins",
+    "agingPotential": "Excellente garde (6 à 10 ans)",
+    "servingTemp": "14°C - 16°C",
+    "tasting": {
+      "eye": "Rubis intense profond, reflets grenat chaleureux",
+      "nose": "Nez intense sur les fruits rouges confiturés (cerise burlat), la prune et le pruneau, mêlés d'arômes toastés et épicés (tabac blond, cumin, graphite).",
+      "mouth": "Puissant, dense et tannique. Matière noble et fondue, finale persistante et racée."
+    },
+    "foodPairings": [
+      "Viandes rouges grillées ou en sauce",
+      "Gibiers à plumes et à poils",
+      "Plateau de fromages affinés"
+    ],
+    "note": "Un grand rouge de gastronomie, structuré et patiné par le chêne français. Stock limité."
+  },
+  {
+    "num": 6,
+    "id": "grand-fricambault-rouge",
+    "slug": "grand-fricambault-rouge",
+    "kicker": "Rouge · Fruit & Finesse",
+    "name": "Sancerre Rouge — Le Grand Fricambault",
+    "cuvee": "Le Grand Fricambault",
+    "color": "rouge",
+    "vintage": 2024,
+    "appellation": "Sancerre Contrôlée",
+    "commune": "Chavignol",
+    "terroir": "Grand Fricambault",
+    "soilType": "Terres calcaro-siliceuses",
+    "exposition": "Coteaux abrités",
+    "grapeVariety": "100% Pinot Noir",
+    "harvest": "Vendanges sélectionnées",
+    "vinification": "Élevé en cuves thermo-régulées pour préserver l'éclat du fruit",
+    "agingPotential": "3 à 5 ans",
+    "servingTemp": "10°C - 12°C",
+    "tasting": {
+      "eye": "Teinte rubis grenat, limpide et brillante",
+      "nose": "Arômes typés de cerise mûre et de pivoine, soulignés d'une pointe d'épice et de graphite.",
+      "mouth": "Rond, souple et léger. Tanins soyeux, très gouleyant et fruité."
+    },
+    "foodPairings": [
+      "Charcuteries de terroir",
+      "Volailles rôties",
+      "Viandes blanches",
+      "Fromages de chèvre frais"
+    ],
+    "note": "La gourmandise et la fraîcheur du Pinot Noir de Loire dans son expression la plus conviviale."
+  },
+  {
+    "num": 7,
+    "id": "grand-fricambault-rose",
+    "slug": "grand-fricambault-rose",
+    "kicker": "Rosé · Vin de Saignée",
+    "name": "Sancerre Rosé — Le Grand Fricambault",
+    "cuvee": "Le Grand Fricambault",
+    "color": "rose",
+    "vintage": 2025,
+    "appellation": "Sancerre Contrôlée",
+    "commune": "Chavignol",
+    "terroir": "Grand Fricambault",
+    "soilType": "Terroirs calcaro-siliceux",
+    "exposition": "Coteaux",
+    "grapeVariety": "100% Pinot Noir",
+    "harvest": "Vendange récoltée au petit matin",
+    "vinification": "Rosé de saignée, macération courte, vinifié en cuves inox thermo-régulées",
+    "agingPotential": "À boire jeune (1 à 2 ans)",
+    "servingTemp": "8°C - 10°C",
+    "tasting": {
+      "eye": "Robe rose groseille lumineuse aux reflets saumon délicats",
+      "nose": "Nez très intense sur des notes de fraise des bois, de pêche de vigne et de fleurs printanières.",
+      "mouth": "Couleur incomparable, fruité croquant, vivifiant et rafraîchissant."
+    },
+    "foodPairings": [
+      "Apéritifs estivaux",
+      "Salades composées gourmandes",
+      "Charcuteries fines",
+      "Viandes grillées au sarment"
+    ],
+    "note": "Un rosé de saignée d'une élégance rare, fruité et vibrant, idéal pour les beaux jours."
+  }
+]

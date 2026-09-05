@@ -1,0 +1,130 @@
+.visiting-section {
+  background-color: var(--fond-sombre-secondaire);
+  border-top: 1px solid var(--ligne-sombre);
+}
+
+.visiting-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.visit-card {
+  background: var(--panneau-sombre);
+  border: 1px solid var(--ligne-sombre);
+  border-radius: 12px;
+  padding: 2.25rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.visit-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+.visit-card.highlight {
+  border-color: var(--or-sceau);
+  background: radial-gradient(circle at top right, rgba(132, 94, 35, 0.12) 0%, var(--panneau-sombre) 75%);
+}
+
+.visit-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin-bottom: 1.25rem;
+}
+
+.card-vector-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  background: rgba(132, 94, 35, 0.12);
+  border: 1px solid rgba(132, 94, 35, 0.3);
+  color: var(--or-sceau-clair);
+  flex-shrink: 0;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+.hours-block {
+  margin-bottom: 1.25rem;
+}
+
+.hours-item {
+  font-size: 0.9rem;
+  padding: 0.45rem 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.08);
+  color: var(--texte-sombre);
+  margin-bottom: 0;
+}
+
+.hours-item.primary {
+  font-weight: 600;
+  color: var(--or-sceau-clair);
+}
+
+.hours-item.closed {
+  color: var(--texte-sombre-muted);
+}
+
+.visit-note {
+  margin-top: auto;
+  font-size: 0.82rem;
+  color: var(--texte-sombre-muted);
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+}
+
+.address-block {
+  font-style: normal;
+  margin-bottom: auto;
+}
+
+.address-line.main {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.address-line.gps {
+  font-size: 0.82rem;
+  font-family: monospace;
+  color: var(--texte-sombre-muted);
+}
+
+.visit-contact-p {
+  color: var(--texte-sombre-muted);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-buttons-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  margin-top: auto;
+}
+
+.visit-btn {
+  width: 100%;
+  min-height: 48px;
+}
+
+@media (max-width: 980px) {
+  .visiting-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

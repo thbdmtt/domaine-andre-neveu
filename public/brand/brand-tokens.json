@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "generatedAt": "2026-09-05T13:48:07.861Z",
+    "domain": "Domaine André Neveu",
+    "region": "Sancerre (Chavignol)",
+    "soilInspirations": [
+      {
+        "name": "silex",
+        "color": "#8c7d65"
+      },
+      {
+        "name": "caillotes",
+        "color": "#9d907b"
+      },
+      {
+        "name": "calcaire",
+        "color": "#7e7668"
+      },
+      {
+        "name": "argilocalcaire",
+        "color": "#968e7f"
+      }
+    ]
+  },
+  "colors": {
+    "fondSombre": "#151814",
+    "fondSombreSecondaire": "#1d221b",
+    "panneauSombre": "#242a22",
+    "ligneSombre": "#343c31",
+    "fondClair": "#f5f3ec",
+    "fondClairSecondaire": "#eae5d8",
+    "panneauClair": "#fbfaf7",
+    "ligneClaire": "#d6cfbe",
+    "texteClair": "#1f241d",
+    "texteClairMuted": "#5e655b",
+    "texteSombre": "#f3efe6",
+    "texteSombreMuted": "#aba596",
+    "orChavignol": "#845e23",
+    "orChavignolClair": "#b89047",
+    "rubisPinot": "#74242d",
+    "vertVignoble": "#2b5e48",
+    "vertVignobleClair": "#4d8f71",
+    "silexMineral": "#4a534c"
+  },
+  "typography": {
+    "headingFont": "'Cinzel', 'Playfair Display', 'Didot', 'Times New Roman', serif",
+    "bodyFont": "'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif",
+    "monoFont": "'JetBrains Mono', monospace"
+  }
+}
