@@ -7,14 +7,48 @@ import "./Nav.css";
 export default function Nav() {
   const { language, toggleLanguage, t } = useLanguage();
   const [scrolled, setScrolled] = useState(false);
+  const [visible, setVisible] = useState(true);
   const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
-    function handleScroll() {
-      setScrolled(window.scrollY > 30);
+    let lastScrollY = typeof window !== "undefined" ? window.scrollY : 0;
+    let ticking = false;
+
+    function updateHeader() {
+      const currentScrollY = window.scrollY;
+      const scrollDelta = currentScrollY - lastScrollY;
+
+      // Au tout début de la page (les 80 premiers pixels) : toujours visible
+      if (currentScrollY <= 80) {
+        setVisible(true);
+        setScrolled(currentScrollY > 20);
+      } else {
+        setScrolled(true);
+        // Filtrer les micro-déplacements (< 8px) pour éviter les sautillements
+        if (Math.abs(scrollDelta) > 8) {
+          if (scrollDelta > 0) {
+            // Défilement vers le bas -> masquer la barre pour libérer l'écran
+            setVisible(false);
+          } else {
+            // Défilement vers le haut -> faire réapparaître immédiatement la barre
+            setVisible(true);
+          }
+        }
+      }
+
+      lastScrollY = Math.max(0, currentScrollY);
+      ticking = false;
     }
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
+
+    function onScroll() {
+      if (!ticking) {
+        window.requestAnimationFrame(updateHeader);
+        ticking = true;
+      }
+    }
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   useEffect(() => {
@@ -76,7 +110,7 @@ export default function Nav() {
 
   return (
     <>
-      <header className={`nav-header ${scrolled ? "scrolled" : ""}`}>
+      <header className={`nav-header ${scrolled ? "scrolled" : ""} ${!visible && !mobileOpen ? "nav-hidden" : ""}`}>
         <div className="nav-container">
           <a href="#hero" className="nav-brand" onClick={closeMobile} aria-label="Retour en haut de page">
             <img
