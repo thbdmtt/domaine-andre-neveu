@@ -1,246 +1,108 @@
 export const copy = {
   fr: {
-    nav: {
-      brand: "Domaine André Neveu",
-      location: "Chavignol",
-      domaine: "Le Domaine",
-      terroirs: "Terroirs",
-      vins: "Nos Vins",
-      chai: "Le Chai",
-      visiter: "Visite & Dégustation",
-      contact: "Contact",
-      callUs: "02 48 54 04 48"
-    },
+    nav: { brand: 'Domaine André Neveu', domaine: 'Le domaine', terroirs: 'Les sols', vins: 'Les vins', chai: 'Le chai', visiter: 'Venir', callUs: '02 48 54 04 48' },
     hero: {
-      eyebrow: "Vignerons Récoltants à Chavignol · Sancerre",
-      title: "L'expression pure des grands terroirs sancerrois",
-      sub: "De la vertigineuse Côte des Monts Damnés aux coteaux de silex et de caillottes, découvrez des vins ciselés avec passion et fidélité au terroir.",
-      ctaWines: "Découvrir les 7 Cuvées",
-      ctaVisit: "Visiter le Caveau",
-      scroll: "Découvrir le domaine"
+      eyebrow: 'Vignerons récoltants',
+      title: 'Domaine André Neveu',
+      sub: 'À Chavignol, le domaine élabore des Sancerre blancs, rouges et rosés sur les terres blanches, les caillottes et les argiles à silex.',
+      ctaWines: 'Voir les cuvées', ctaVisit: 'Préparer une visite',
+      imageAlt: 'Vignes sur les coteaux de Chavignol, dans le Sancerrois'
     },
-    ledger: {
-      items: [
-        { value: "Chavignol", label: "Village historique" },
-        { value: "3 Terroirs", label: "Terres Blanches, Silex, Caillottes" },
-        { value: "7 Cuvées", label: "Blanc, Rouge, Rosé" },
-        { value: "9 Pays", label: "Distribution internationale" }
-      ]
-    },
+    ledger: { label: 'Repères du domaine', items: [
+      { value: 'Chavignol', label: 'Implantation du domaine' },
+      { value: '3 sols', label: 'Terres blanches, caillottes, silex' },
+      { value: '7 cuvées', label: 'Sancerre blanc, rouge et rosé' }
+    ]},
     domaine: {
-      eyebrow: "Héritage & Savoir-Faire",
-      title: "Une tradition vigneronne ancrée à Chavignol",
-      p1: "Niché au creux des coteaux emblématiques du Sancerrois, le Domaine André Neveu perpétue avec rigueur et humilité la tradition des vignerons récoltants de Chavignol.",
-      p2: "Ici, chaque parcelle est travaillée selon sa nature géologique. Les pentes légendaires des Monts Damnés sont vendangées exclusivement à la main, respectant le rythme végétatif de la vigne et la pureté aromatique du raisin.",
-      quote: "« Le vin naît dans la vigne, la cave n'en est que le révélateur respectueux. »"
+      eyebrow: 'Le domaine', title: 'Une gamme construite autour des sols de Chavignol',
+      p1: 'Le Domaine André Neveu se présente comme vigneron récoltant à Chavignol. Son catalogue relie chaque cuvée à une parcelle, un sol et une conduite de cave décrits séparément.',
+      p2: 'Les Monts Damnés, les Longues Fins et le Grand Fricambault donnent ainsi des lectures distinctes du sauvignon blanc et du pinot noir.',
+      captionMain: 'Les coteaux autour de Chavignol', captionSecondary: 'La Côte des Monts Damnés',
+      marker: 'Chavignol · 18300 Sancerre'
     },
     terroirs: {
-      eyebrow: "Géologie Sancerroise",
-      title: "La mosaïque géologique de Chavignol",
-      intro: "La richesse unique de nos cuvées s'explique par la rencontre des trois grands sols du Sancerrois, conférant à chaque vin sa signature minérale propre.",
+      eyebrow: 'Géologie', title: 'Trois matières, trois points de départ',
+      intro: 'Le site du domaine distingue trois familles de sols présentes dans le Sancerrois. Les photographies ci-dessous proviennent de ses propres pages de présentation.',
+      sample: 'Échantillon de sol publié par le domaine', landscape: 'Vue de parcelle',
       tabs: {
-        damnes: {
-          title: "Les Monts Damnés",
-          sub: "Terres Blanches · Argilo-calcaire",
-          desc: "La pente la plus raide et la plus célèbre de Chavignol, ainsi nommée par nos ancêtres en raison de l'extrême pénibilité du travail de la vigne. Son exposition plein sud et son sol riche en fossiles donnent des vins amples, profonds, bâtis pour une longue garde."
-        },
-        caillottes: {
-          title: "Les Caillottes",
-          sub: "Calcaires pierreux de coteaux",
-          desc: "Des sols très pierreux et calcaires du Jurassique supérieur. Les caillottes emmagasinent la chaleur le jour pour la restituer la nuit, produisant des vins vifs, élégants, d'une grande fraîcheur florale et fruitée."
-        },
-        silex: {
-          title: "Le Silex",
-          sub: "Argiles à silex · Coteau de Sancerre",
-          desc: "La roche siliceuse par excellence. Situé sur les coteaux dominant la Loire, le silex transmet aux vins cette célèbre typicité minérale de « pierre à fusil », droite, tranchante et fumée."
-        }
+        damnes: { title: 'Les Monts Damnés', sub: 'Terres blanches', desc: 'Un coteau de Chavignol sur des marnes argilo-calcaires. La cuvée Les Monts Damnés est issue de cette parcelle en forte pente.', note: 'Argilo-calcaire · Sauvignon blanc' },
+        caillottes: { title: 'Les Caillottes', sub: 'Calcaire pierreux', desc: 'Des sols calcaires où les pierres affleurent. Le Manoir et LF Calcaire sont présentés par le domaine comme issus de cette famille de sols.', note: 'Calcaire · Sauvignon blanc' },
+        silex: { title: 'Le Silex', sub: 'Argiles à silex', desc: 'Sur le coteau de Sancerre, le Grand Fricambault blanc est rattaché par le domaine aux argiles à silex.', note: 'Silex · Sauvignon blanc' }
       }
     },
     vins: {
-      eyebrow: "La Gamme du Domaine",
-      title: "Sept cuvées de précision et de terroir",
-      desc: "Chaque bouteille est le reflet fidèle de son climat d'origine, élevée dans le respect de l'équilibre et de l'authenticité.",
-      filterAll: "Tous nos vins",
-      filterBlanc: "Vins Blancs",
-      filterRouge: "Vins Rouges",
-      filterRose: "Vins Rosés",
-      detailsTitle: "Profil & Dégustation",
-      factsTitle: "Fiche Technique",
-      pairingsTitle: "Accords Mets & Vins",
-      contactForPrice: "Demander les tarifs & disponibilités"
+      eyebrow: 'Le catalogue', title: 'Sept cuvées publiées par le domaine',
+      desc: 'Les millésimes et disponibilités évoluent. Contactez le domaine avant toute commande ou déplacement.',
+      filterAll: 'Tous', filterBlanc: 'Blancs', filterRouge: 'Rouges', filterRose: 'Rosé',
+      detailsTitle: 'Dégustation', factsTitle: 'Repères techniques', pairingsTitle: 'À table', contactForPrice: 'Tarifs et disponibilités',
+      selectLabel: 'Choisir une cuvée', bottleAlt: 'Bouteille', archiveNote: 'Informations issues du catalogue archivé du domaine.'
     },
     chai: {
-      eyebrow: "Vinification & Élevage",
-      title: "La précision technique au service du fruit",
-      p1: "Au chai, l'intervention est mesurée et précise : cuverie thermo-régulée en inox pour préserver la vivacité des sauvignons blancs, et fûts de chêne français soigneusement sélectionnés pour structurer les vieilles vignes de pinot noir.",
-      p2: "Les fermentations lentes et les élevages prolongés sur lies fines permettent à nos vins de développer leur texture soyeuse et leur potentiel de vieillissement."
+      eyebrow: 'Vinification', title: 'Cuves inox, lies fines et fûts de chêne',
+      p1: 'Les fiches du domaine mentionnent des cuves thermorégulées pour plusieurs cuvées blanches et rouges, avec un travail sur lies fines pour Les Monts Damnés.',
+      p2: 'La cuvée rouge Vieilles Vignes est présentée comme vinifiée et élevée en fûts de chêne français de plusieurs vins.',
+      caption: 'Le chai du domaine, photographies publiées sur son site.'
     },
     visiter: {
-      eyebrow: "Accueil au Caveau",
-      title: "Venez déguster nos vins à Chavignol",
-      desc: "Nous vous recevons avec plaisir au caveau familial pour vous faire découvrir nos cuvées et partager notre passion du terroir sancerrois.",
-      hoursTitle: "Horaires d'ouverture",
-      hoursWeek: "Lundi au Vendredi : 9h00 – 11h30 & 14h00 – 17h30",
-      hoursSat: "Samedi : Ouvert sur rendez-vous",
-      hoursSun: "Dimanche & Jours fériés : Fermé",
-      appointmentNote: "Un rendez-vous préalable nous permettra de vous réserver le meilleur accueil.",
-      addressTitle: "Adresse & Accès",
-      address: "Chavignol, 18300 Sancerre — France",
-      gps: "Coordonnées GPS : 47.33799° N, 2.80320° E",
-      phone: "02 48 54 04 48",
-      email: "chavignol@orange.fr",
-      callBtn: "Appeler le Domaine",
-      emailBtn: "Écrire au Domaine",
-      mapBtn: "Ouvrir dans Google Maps"
+      eyebrow: 'Le caveau', title: 'Préparer votre passage à Chavignol',
+      desc: 'Les coordonnées et horaires ci-dessous sont ceux publiés par le domaine. Un appel préalable est conseillé.',
+      hoursTitle: 'Horaires publiés', hoursWeek: 'Lundi au vendredi · 9 h–11 h 30 · 14 h–17 h 30', hoursSat: 'Samedi · sur rendez-vous', hoursSun: 'Dimanche · fermé', appointmentNote: 'Horaires à confirmer avant votre déplacement.',
+      addressTitle: 'Adresse', address: 'Chavignol, 18300 Sancerre — France', gps: '47.33799° N · 2.80320° E', phone: '02 48 54 04 48', email: 'chavignol@orange.fr',
+      callBtn: 'Appeler le domaine', emailBtn: 'Écrire au domaine', mapBtn: 'Ouvrir l’itinéraire', contactCardTitle: 'Contact caveau', contactCardDesc: 'Pour une visite ou une dégustation, contactez directement le domaine.'
     },
     export: {
-      eyebrow: "Rayonnement International",
-      title: "Nos vins à travers le monde",
-      desc: "Les cuvées du Domaine André Neveu sont distribuées auprès de cavistes, restaurateurs et importateurs passionnés dans 9 pays.",
-      countries: [
-        { name: "Allemagne", flag: "/media/export/allemagne--c170fad9aa.png" },
-        { name: "Belgique", flag: "/media/export/belgique--1ca27aee53.png" },
-        { name: "Danemark", flag: "/media/export/danemark--22062d6236.png" },
-        { name: "États-Unis", flag: "/media/export/etats-unis--3432941e71.png" },
-        { name: "Grande-Bretagne", flag: "/media/export/grande-bretagne--e84b49ed7d.png" },
-        { name: "Hong Kong", flag: "/media/export/hong-kong--15f5bdfbbd.png" },
-        { name: "Irlande", flag: "/media/export/irlande--691e1fbea1.png" },
-        { name: "Italie", flag: "/media/export/italie--aebf0ef1c9.png" },
-        { name: "Japon", flag: "/media/export/japon--4f0f88ca21.png" }
-      ],
-      proNote: "Professionnels, importateurs ou cavistes : contactez-nous pour recevoir nos fiches techniques et conditions commerciales."
+      eyebrow: 'Distribution', title: 'Neuf pays répertoriés',
+      desc: 'Le site du domaine répertorie des distributeurs dans les neuf pays suivants.', proBadge: 'Professionnels', proBtn: 'Contacter le domaine',
+      countries: [['Allemagne','allemagne--c170fad9aa.png'],['Belgique','belgique--1ca27aee53.png'],['Danemark','danemark--22062d6236.png'],['États-Unis','etats-unis--3432941e71.png'],['Grande-Bretagne','grande-bretagne--e84b49ed7d.png'],['Hong Kong','hong-kong--15f5bdfbbd.png'],['Irlande','irlande--691e1fbea1.png'],['Italie','italie--aebf0ef1c9.png'],['Japon','japon--4f0f88ca21.png']].map(([name,file]) => ({ name, flag: `/media/export/${file}` })),
+      proNote: 'Importateurs, cavistes et restaurateurs peuvent demander les fiches techniques et les conditions commerciales par courriel.'
     },
-    footer: {
-      legalNotice: "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
-      copyright: "© Domaine André Neveu. Tous droits réservés.",
-      credits: "Conception & refonte artisanale par l'Atelier Viticole.",
-      links: [
-        { label: "Mentions Légales", href: "#" },
-        { label: "Gestion des Cookies", href: "#" },
-        { label: "Plan d'Accès", href: "#visiter" }
-      ]
-    }
+    footer: { legalNotice: 'L’abus d’alcool est dangereux pour la santé. À consommer avec modération.', copyright: '© Domaine André Neveu', credits: 'Proposition de refonte · Atelier Viticole', description: 'Vignerons récoltants à Chavignol. Vins de Sancerre issus des terres blanches, des caillottes et des argiles à silex.' }
   },
   en: {
-    nav: {
-      brand: "Domaine André Neveu",
-      location: "Chavignol",
-      domaine: "The Estate",
-      terroirs: "Terroirs",
-      vins: "Our Wines",
-      chai: "The Cellar",
-      visiter: "Visit & Tasting",
-      contact: "Contact",
-      callUs: "+33 2 48 54 04 48"
-    },
+    nav: { brand: 'Domaine André Neveu', domaine: 'The estate', terroirs: 'Soils', vins: 'Wines', chai: 'The cellar', visiter: 'Visit', callUs: '+33 2 48 54 04 48' },
     hero: {
-      eyebrow: "Artisan Winegrowers in Chavignol · Sancerre",
-      title: "The pure mineral voice of Sancerre's finest terroirs",
-      sub: "From the dizzying slopes of Monts Damnés to the flint and limestone hillsides, explore wines crafted with fidelity to origin and ancestral passion.",
-      ctaWines: "Explore 7 Cuvées",
-      ctaVisit: "Visit Our Cellar",
-      scroll: "Discover the estate"
+      eyebrow: 'Winegrowers in Chavignol', title: 'Domaine André Neveu',
+      sub: 'In Chavignol, the estate produces white, red and rosé Sancerre from Terres Blanches, limestone Caillottes and flint clay soils.',
+      ctaWines: 'See the wines', ctaVisit: 'Plan a visit', imageAlt: 'Vineyards on the slopes of Chavignol in Sancerre'
     },
-    ledger: {
-      items: [
-        { value: "Chavignol", label: "Historic wine village" },
-        { value: "3 Terroirs", label: "Terres Blanches, Silex, Caillottes" },
-        { value: "7 Cuvées", label: "White, Red, Rosé" },
-        { value: "9 Countries", label: "Global distribution" }
-      ]
-    },
+    ledger: { label: 'Estate facts', items: [
+      { value: 'Chavignol', label: 'The estate’s village' }, { value: '3 soils', label: 'Terres Blanches, limestone, flint' }, { value: '7 wines', label: 'White, red and rosé Sancerre' }
+    ]},
     domaine: {
-      eyebrow: "Heritage & Craft",
-      title: "Winegrowing roots anchored in Chavignol",
-      p1: "Nestled in the historic heart of Sancerre, Domaine André Neveu perpetuates the artisanal discipline of Chavignol winegrowers with precision and passion.",
-      p2: "Every plot is cultivated according to its unique geology. The steep, legendary slopes of Monts Damnés are harvested exclusively by hand, ensuring grape integrity and pure aromatics.",
-      quote: "“Wine is born in the vineyard; the cellar is merely its faithful interpreter.”"
+      eyebrow: 'The estate', title: 'A range shaped by the soils of Chavignol',
+      p1: 'Domaine André Neveu presents itself as a winegrower in Chavignol. Its catalogue links each wine to a plot, a soil type and specific cellar work.',
+      p2: 'Monts Damnés, Les Longues Fins and Le Grand Fricambault offer distinct readings of Sauvignon Blanc and Pinot Noir.',
+      captionMain: 'The hills around Chavignol', captionSecondary: 'The Monts Damnés slope', marker: 'Chavignol · 18300 Sancerre'
     },
     terroirs: {
-      eyebrow: "Sancerrois Geology",
-      title: "The geological mosaic of Chavignol",
-      intro: "The singular depth of our wines stems from the convergence of Sancerre’s three premier soil types, endowing each vintage with its distinctive mineral voice.",
+      eyebrow: 'Geology', title: 'Three materials, three starting points',
+      intro: 'The estate website identifies three soil families in Sancerre. The photographs below come from its own presentation pages.', sample: 'Soil sample published by the estate', landscape: 'Vineyard view',
       tabs: {
-        damnes: {
-          title: "Les Monts Damnés",
-          sub: "Terres Blanches · Kimmeridgian Marl",
-          desc: "Chavignol's steepest and most famous hillside, so named by our ancestors because of the grueling vineyard work. Its full southern exposure and fossil-rich clay-limestone yield profound, cellar-worthy whites."
-        },
-        caillottes: {
-          title: "Les Caillottes",
-          sub: "Oxfordian limestone stones",
-          desc: "Extremely stony limestone soils that capture solar warmth by day and gently radiate it at night, fostering crisp, perfumed, and brilliantly chiseled wines."
-        },
-        silex: {
-          title: "Le Silex (Flint)",
-          sub: "Gunflint clays on Sancerre hillside",
-          desc: "The purest siliceous rock. Located on high slopes facing the Loire, flint imparts our signature smoky 'pierre à fusil' note: straight, tense, and laser-sharp."
-        }
+        damnes: { title: 'Les Monts Damnés', sub: 'Terres Blanches', desc: 'A Chavignol hillside on clay-limestone marl. Les Monts Damnés comes from this steep plot.', note: 'Clay-limestone · Sauvignon Blanc' },
+        caillottes: { title: 'Les Caillottes', sub: 'Stony limestone', desc: 'Limestone soils with stones at the surface. Le Manoir and LF Calcaire are linked to this soil family by the estate.', note: 'Limestone · Sauvignon Blanc' },
+        silex: { title: 'Flint', sub: 'Flint clay', desc: 'On the Sancerre hillside, the estate links its white Grand Fricambault to flint clay soils.', note: 'Flint · Sauvignon Blanc' }
       }
     },
     vins: {
-      eyebrow: "The Wine Collection",
-      title: "Seven cuvées of precision and origin",
-      desc: "Every bottle is an authentic portrait of its terroir, crafted to balance freshness, texture, and longevity.",
-      filterAll: "All Wines",
-      filterBlanc: "White Wines",
-      filterRouge: "Red Wines",
-      filterRose: "Rosé Wines",
-      detailsTitle: "Tasting & Profile",
-      factsTitle: "Technical Sheet",
-      pairingsTitle: "Food & Wine Pairings",
-      contactForPrice: "Inquire for availability & pricing"
+      eyebrow: 'The range', title: 'Seven wines listed by the estate', desc: 'Vintages and availability change. Contact the estate before ordering or travelling.',
+      filterAll: 'All', filterBlanc: 'White', filterRouge: 'Red', filterRose: 'Rosé', detailsTitle: 'Tasting', factsTitle: 'Technical details', pairingsTitle: 'At the table', contactForPrice: 'Prices and availability', selectLabel: 'Choose a wine', bottleAlt: 'Bottle of', archiveNote: 'Information from the estate’s archived catalogue.'
     },
     chai: {
-      eyebrow: "Cellar & Winemaking",
-      title: "Technical discipline honoring pure fruit",
-      p1: "In the winery, intervention is gentle and measured: thermo-regulated stainless steel vats to safeguard the freshness of Sauvignon Blanc, and fine French oak casks to cradle old-vine Pinot Noir.",
-      p2: "Extended lees aging bestows a silky texture, great complexity, and remarkable cellar potential."
+      eyebrow: 'Winemaking', title: 'Stainless steel, fine lees and oak barrels',
+      p1: 'The estate sheets mention temperature-controlled tanks for several white and red wines, with fine-lees ageing for Les Monts Damnés.',
+      p2: 'The red Vieilles Vignes is described as vinified and aged in previously used French oak barrels.', caption: 'The estate cellar, in photographs published on its website.'
     },
     visiter: {
-      eyebrow: "Cellar Door Tasting",
-      title: "Experience our wines in Chavignol",
-      desc: "We warmly welcome wine enthusiasts and professionals to our tasting room to share our wines and terroir story.",
-      hoursTitle: "Visiting Hours",
-      hoursWeek: "Monday to Friday: 9:00 AM – 11:30 AM & 2:00 PM – 5:30 PM",
-      hoursSat: "Saturday: By prior appointment",
-      hoursSun: "Sunday & Public Holidays: Closed",
-      appointmentNote: "Booking in advance ensures we can give you our fullest attention.",
-      addressTitle: "Location & Access",
-      address: "Chavignol, 18300 Sancerre — France",
-      gps: "GPS Coordinates: 47.33799° N, 2.80320° E",
-      phone: "+33 (0)2 48 54 04 48",
-      email: "chavignol@orange.fr",
-      callBtn: "Call the Estate",
-      emailBtn: "Email the Estate",
-      mapBtn: "Open in Google Maps"
+      eyebrow: 'The cellar door', title: 'Plan your visit to Chavignol', desc: 'These details and hours are those published by the estate. Calling ahead is advised.',
+      hoursTitle: 'Published hours', hoursWeek: 'Monday to Friday · 9–11:30 am · 2–5:30 pm', hoursSat: 'Saturday · by appointment', hoursSun: 'Sunday · closed', appointmentNote: 'Please confirm before travelling.',
+      addressTitle: 'Address', address: 'Chavignol, 18300 Sancerre — France', gps: '47.33799° N · 2.80320° E', phone: '+33 2 48 54 04 48', email: 'chavignol@orange.fr',
+      callBtn: 'Call the estate', emailBtn: 'Email the estate', mapBtn: 'Open directions', contactCardTitle: 'Cellar contact', contactCardDesc: 'Contact the estate directly to arrange a visit or tasting.'
     },
     export: {
-      eyebrow: "Global Reach",
-      title: "Distributed around the world",
-      desc: "Domaine André Neveu wines are cherished by leading sommeliers, wine merchants, and importers across 9 countries.",
-      countries: [
-        { name: "Germany", flag: "/media/export/allemagne--c170fad9aa.png" },
-        { name: "Belgium", flag: "/media/export/belgique--1ca27aee53.png" },
-        { name: "Denmark", flag: "/media/export/danemark--22062d6236.png" },
-        { name: "United States", flag: "/media/export/etats-unis--3432941e71.png" },
-        { name: "United Kingdom", flag: "/media/export/grande-bretagne--e84b49ed7d.png" },
-        { name: "Hong Kong", flag: "/media/export/hong-kong--15f5bdfbbd.png" },
-        { name: "Ireland", flag: "/media/export/irlande--691e1fbea1.png" },
-        { name: "Italy", flag: "/media/export/italie--aebf0ef1c9.png" },
-        { name: "Japan", flag: "/media/export/japon--4f0f88ca21.png" }
-      ],
-      proNote: "Importers and wine trade professionals: contact us to receive our complete commercial portfolio and samples."
+      eyebrow: 'Distribution', title: 'Nine countries listed', desc: 'The estate website lists distributors in the following nine countries.', proBadge: 'Wine trade', proBtn: 'Contact the estate',
+      countries: [['Germany','allemagne--c170fad9aa.png'],['Belgium','belgique--1ca27aee53.png'],['Denmark','danemark--22062d6236.png'],['United States','etats-unis--3432941e71.png'],['United Kingdom','grande-bretagne--e84b49ed7d.png'],['Hong Kong','hong-kong--15f5bdfbbd.png'],['Ireland','irlande--691e1fbea1.png'],['Italy','italie--aebf0ef1c9.png'],['Japan','japon--4f0f88ca21.png']].map(([name,file]) => ({ name, flag: `/media/export/${file}` })),
+      proNote: 'Importers, merchants and restaurants can request technical sheets and trade terms by email.'
     },
-    footer: {
-      legalNotice: "Alcohol abuse is hazardous to health. Drink in moderation.",
-      copyright: "© Domaine André Neveu. All rights reserved.",
-      credits: "Redesign prototype handcrafted by Atelier Viticole.",
-      links: [
-        { label: "Legal Notice", href: "#" },
-        { label: "Cookie Policy", href: "#" },
-        { label: "Directions", href: "#visiter" }
-      ]
-    }
+    footer: { legalNotice: 'Alcohol abuse is harmful to health. Drink in moderation.', copyright: '© Domaine André Neveu', credits: 'Redesign proposal · Atelier Viticole', description: 'Winegrowers in Chavignol. Sancerre wines from Terres Blanches, limestone Caillottes and flint clay soils.' }
   }
 };

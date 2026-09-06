@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-09-06T10:14:42.417Z",
+  "domain": "Domaine André Neveu",
+  "status": "proposal-needs-human-review",
+  "emblem": {
+    "assetId": "emblem-home",
+    "label": "Arabesque publiée sur l’accueil",
+    "archiveFile": "media/images/arabesque--ada4df477e.png",
+    "sourceUrl": "https://www.andre-neveu.fr/images/index/arabesque.png",
+    "sourcePages": [
+      "https://www.andre-neveu.fr/"
+    ],
+    "traceThreshold": 128,
+    "limitation": "Potrace produit un brouillon de formes pleines. Il ne garantit ni fidélité géométrique, ni tracé filaire, ni droits de réutilisation."
+  },
+  "typography": {
+    "status": "proposal-needs-human-review",
+    "observation": "L’en-tête emploie une linéale fine aux formes souples ; l’étiquette associe cette légèreté à des caractères historiques. L’identification exacte de la fonte n’est pas établie.",
+    "evidenceAssetId": "header-wordmark",
+    "candidates": [
+      {
+        "id": "humanist-system",
+        "label": "Linéale humaniste",
+        "stack": "'Avenir Next', 'Gill Sans', 'Trebuchet MS', sans-serif",
+        "license": "Polices système ou licence à vérifier selon la fonte retenue",
+        "status": "proposal"
+      },
+      {
+        "id": "label-serif",
+        "label": "Sérif éditoriale pour les cuvées",
+        "stack": "Georgia, 'Times New Roman', serif",
+        "license": "Polices système ; toute substitution web doit être vérifiée",
+        "status": "proposal"
+      }
+    ],
+    "selected": null,
+    "headingFont": "'Avenir Next', 'Gill Sans', 'Trebuchet MS', sans-serif",
+    "bodyFont": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+  },
+  "decisionsRequired": [
+    "Confirmer que le signe retenu appartient bien à l’identité actuelle du domaine.",
+    "Contrôler et reprendre manuellement le tracé avant tout usage public.",
+    "Choisir la famille typographique et vérifier sa licence.",
+    "Obtenir l’accord du domaine pour la réutilisation publique des signes de marque."
+  ]
+}

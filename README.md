@@ -1,37 +1,28 @@
-# Domaine André Neveu — Site du domaine
+# Domaine André Neveu — proposition de refonte
 
-Application React (Vite) reproduisant fidèlement la proposition de refonte web pour le **Domaine André Neveu** à Chavignol (AOC Sancerre) : hero grand angle, atlas géologique interactif des 3 terroirs (Monts Damnés, Caillottes, Silex), studio de dégustation des 7 cuvées artisanales, galerie du chai, repères de visite/caveau et espace export international.
+Démonstrateur React/Vite construit à partir du kit d’identité sourcé du Domaine André Neveu. La direction graphique reprend le papier ivoire de l’étiquette, les tons du flacon et les gris-olive des sols publiés par le domaine.
 
-## Site publié
+Les contenus proviennent de l’archive collectée le 5 septembre 2026. Les millésimes, disponibilités, horaires, droits sur les médias, typographies et tracé de l’emblème doivent être confirmés avant toute mise en production. Le démonstrateur porte donc une directive `noindex`.
 
-Le site est déployé automatiquement sur GitHub Pages à chaque mise à jour de la branche `main` :
-👉 **[thbdmtt.github.io/domaine-andre-neveu](https://thbdmtt.github.io/domaine-andre-neveu/)**
-
-## Lancer en développement
+## Développement
 
 ```bash
 npm install
 npm run dev
 ```
 
-Ouvre l'application sur le serveur de développement local (par défaut http://localhost:5173 ou 5174).
-
-## Compiler pour la production
+## Production
 
 ```bash
 npm run build
-```
-
-Le site statique optimisé est généré dans `dist/`. Pour prévisualiser le rendu de production :
-
-```bash
 npm run preview
 ```
 
-## Structure du projet
+Le déploiement GitHub Pages existant est déclenché uniquement lors d’un push sur `main`. Cette refonte locale ne le modifie pas tant qu’elle n’est pas publiée.
 
-- `src/components/` — composants modulaires (Nav, Hero, Domaine, Terroirs, Wines, Cellar, Visiting, Export, Footer, QuickMobileBar, Icons)
-- `src/data/` — fiches des 7 cuvées (`wines.js`), textes bilingues FR/EN (`copy.js`)
-- `src/utils/` — utilitaire de résolution d'actifs (`asset.js`) compatible GitHub Pages et domaines personnalisés
-- `src/styles/` — variables CSS de terroir, typographies et styles de base
-- `public/` — identité de marque vectorielle (`brand/`), photographies d'époque et terroirs (`media/`), packshots HD des 7 cuvées (`wines/`), `robots.txt`, `sitemap.xml`
+## Provenance du kit
+
+- `public/brand/brand-tokens.json` : palette, prélèvements et propositions typographiques ;
+- `public/brand/brand-evidence.json` : provenance et limites du signe vectorisé ;
+- `public/brand/legacy/` : anciens emblèmes conservés pour comparaison ;
+- `public/media/` et `public/wines/` : copies de travail issues de l’archive du domaine.

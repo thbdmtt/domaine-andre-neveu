@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640" height="150" viewBox="0 0 640 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Aperçu typographique — Domaine André Neveu</title>
+  <desc id="desc">Composition de travail à valider ; le texte n’est pas converti en tracés.</desc>
+  <g id="brand-lockup-preview" fill="currentColor">
+    <text x="320" y="62" text-anchor="middle" font-family="&apos;Avenir Next&apos;, &apos;Gill Sans&apos;, &apos;Trebuchet MS&apos;, sans-serif" font-size="30" font-weight="500" letter-spacing="0.08em">
+      DOMAINE ANDRÉ NEVEU
+    </text>
+    <line x1="210" y1="82" x2="430" y2="82" stroke="#908265" stroke-width="1" />
+    <text x="320" y="112" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="500" letter-spacing="0.14em" fill="#908265">
+      VIGNERONS RÉCOLTANTS À CHAVIGNOL
+    </text>
+  </g>
+</svg>

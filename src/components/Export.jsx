@@ -1,40 +1,14 @@
-import { useLanguage } from "../i18n";
-import { asset } from "../utils/asset";
-import { IconMail } from "./Icons";
-import "./Export.css";
+import { useLanguage } from '../i18n';
+import { asset } from '../utils/asset';
+import { IconArrowRight, IconMail } from './Icons';
+import './Export.css';
 
 export default function Export() {
   const { t } = useLanguage();
-
-  return (
-    <section className="section-pad export-section" id="export">
-      <div className="container">
-        <div className="section-header">
-          <span className="eyebrow">{t.export.eyebrow}</span>
-          <h2 className="section-title">{t.export.title}</h2>
-          <p className="section-desc">{t.export.desc}</p>
-        </div>
-
-        <div className="export-flags-grid">
-          {t.export.countries.map((c, idx) => (
-            <div className="country-card" key={idx}>
-              <img src={asset(c.flag)} alt={c.name} className="flag-img" width="48" height="32" loading="lazy" />
-              <span className="country-name">{c.name}</span>
-            </div>
-          ))}
-        </div>
-
-        <div className="export-pro-box">
-          <div className="pro-inner">
-            <span className="pro-badge">Espace Professionnels</span>
-            <p className="pro-text">{t.export.proNote}</p>
-            <a href="mailto:info@andre-neveu.fr?subject=Demande%20de%20fiches%20techniques%20et%20conditions%20commerciales" className="btn btn-primary" style={{ gap: "0.6rem" }}>
-              <IconMail size={15} />
-              <span>Contacter le service export</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+  return <section className="section-pad export-section" id="export">
+    <div className="container export-grid">
+      <div><span className="eyebrow">{t.export.eyebrow}</span><h2 className="section-title">{t.export.title}</h2><p className="section-desc">{t.export.desc}</p><div className="export-contact"><small>{t.export.proBadge}</small><p>{t.export.proNote}</p><a className="btn btn-primary" href="mailto:info@andre-neveu.fr?subject=Demande%20professionnelle"><IconMail size={15} />{t.export.proBtn}<IconArrowRight size={15} /></a></div></div>
+      <ol className="country-list">{t.export.countries.map((country, index) => <li key={country.name}><span>{String(index + 1).padStart(2,'0')}</span><img src={asset(country.flag)} alt="" width="42" height="28" loading="lazy" /><strong>{country.name}</strong></li>)}</ol>
+    </div>
+  </section>;
 }

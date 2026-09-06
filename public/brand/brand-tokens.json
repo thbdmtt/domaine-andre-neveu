@@ -1,50 +1,306 @@
 {
   "meta": {
-    "generatedAt": "2026-09-05T13:48:07.861Z",
+    "generatedAt": "2026-09-06T10:14:42.381Z",
     "domain": "Domaine André Neveu",
-    "region": "Sancerre (Chavignol)",
-    "soilInspirations": [
+    "status": "proposal-needs-human-review",
+    "sourceMode": "curated-sources",
+    "archiveCollectedAt": "2026-09-05T13:32:15.428Z",
+    "usedAccessibilityFallback": false,
+    "selectedEvidence": [
+      "bottle-label-1",
+      "soil-silex"
+    ]
+  },
+  "evidence": {
+    "method": "Chaque teinte est une candidate issue d’une zone documentée. Les moyennes globales de photographies ne sont pas utilisées.",
+    "samples": [
       {
-        "name": "silex",
-        "color": "#8c7d65"
+        "id": "soil-silex",
+        "role": "terroir",
+        "label": "Silex présenté par le domaine",
+        "file": "media/images/silex--52c9be3899.jpg",
+        "sourceUrl": "https://www.andre-neveu.fr/images/terroirs/silex.jpg",
+        "sourcePages": [
+          "https://www.andre-neveu.fr/en/terroirs.html",
+          "https://www.andre-neveu.fr/terroirs.html"
+        ],
+        "crop": null,
+        "cropStatus": "full-frame-needs-review",
+        "method": "dominant-color-candidates-from-quantized-pixels",
+        "swatches": [
+          {
+            "color": "#d8d8d8",
+            "share": 0.042,
+            "luminance": 0.687
+          },
+          {
+            "color": "#303018",
+            "share": 0.038,
+            "luminance": 0.028
+          },
+          {
+            "color": "#a89078",
+            "share": 0.032,
+            "luminance": 0.296
+          },
+          {
+            "color": "#484830",
+            "share": 0.03,
+            "luminance": 0.062
+          },
+          {
+            "color": "#787860",
+            "share": 0.029,
+            "luminance": 0.183
+          }
+        ]
       },
       {
-        "name": "caillotes",
-        "color": "#9d907b"
+        "id": "soil-caillottes",
+        "role": "terroir",
+        "label": "Caillottes présentées par le domaine",
+        "file": "media/images/caillotes--a4e206a6cd.jpg",
+        "sourceUrl": "https://www.andre-neveu.fr/images/terroirs/caillotes.jpg",
+        "sourcePages": [
+          "https://www.andre-neveu.fr/en/terroirs.html",
+          "https://www.andre-neveu.fr/terroirs.html"
+        ],
+        "crop": null,
+        "cropStatus": "full-frame-needs-review",
+        "method": "dominant-color-candidates-from-quantized-pixels",
+        "swatches": [
+          {
+            "color": "#c0a890",
+            "share": 0.092,
+            "luminance": 0.412
+          },
+          {
+            "color": "#a89078",
+            "share": 0.081,
+            "luminance": 0.296
+          },
+          {
+            "color": "#907860",
+            "share": 0.068,
+            "luminance": 0.202
+          },
+          {
+            "color": "#d8c0a8",
+            "share": 0.049,
+            "luminance": 0.551
+          },
+          {
+            "color": "#606048",
+            "share": 0.041,
+            "luminance": 0.113
+          }
+        ]
       },
       {
-        "name": "calcaire",
-        "color": "#7e7668"
+        "id": "soil-calcaire",
+        "role": "terroir",
+        "label": "Calcaire présenté par le domaine",
+        "file": "media/images/calcaire--d6c99308f5.jpg",
+        "sourceUrl": "https://www.andre-neveu.fr/images/terroirs/calcaire.jpg",
+        "sourcePages": [
+          "https://www.andre-neveu.fr/en/terroirs.html",
+          "https://www.andre-neveu.fr/terroirs.html"
+        ],
+        "crop": null,
+        "cropStatus": "full-frame-needs-review",
+        "method": "dominant-color-candidates-from-quantized-pixels",
+        "swatches": [
+          {
+            "color": "#c0c0c0",
+            "share": 0.066,
+            "luminance": 0.527
+          },
+          {
+            "color": "#a8a890",
+            "share": 0.057,
+            "luminance": 0.383
+          },
+          {
+            "color": "#181818",
+            "share": 0.055,
+            "luminance": 0.009
+          },
+          {
+            "color": "#909078",
+            "share": 0.053,
+            "luminance": 0.272
+          },
+          {
+            "color": "#787860",
+            "share": 0.045,
+            "luminance": 0.183
+          }
+        ]
       },
       {
-        "name": "argilocalcaire",
-        "color": "#968e7f"
+        "id": "soil-argilocalcaire",
+        "role": "terroir",
+        "label": "Sol argilo-calcaire présenté par le domaine",
+        "file": "media/images/argilocalcaire--bda42312e7.jpg",
+        "sourceUrl": "https://www.andre-neveu.fr/images/terroirs/argilocalcaire.jpg",
+        "sourcePages": [
+          "https://www.andre-neveu.fr/en/terroirs.html",
+          "https://www.andre-neveu.fr/terroirs.html"
+        ],
+        "crop": null,
+        "cropStatus": "full-frame-needs-review",
+        "method": "dominant-color-candidates-from-quantized-pixels",
+        "swatches": [
+          {
+            "color": "#d8d8d8",
+            "share": 0.079,
+            "luminance": 0.687
+          },
+          {
+            "color": "#787860",
+            "share": 0.077,
+            "luminance": 0.183
+          },
+          {
+            "color": "#606048",
+            "share": 0.062,
+            "luminance": 0.113
+          },
+          {
+            "color": "#909078",
+            "share": 0.062,
+            "luminance": 0.272
+          },
+          {
+            "color": "#a8a890",
+            "share": 0.04,
+            "luminance": 0.383
+          }
+        ]
+      },
+      {
+        "id": "bottle-label-1",
+        "role": "label",
+        "label": "Bouteille Les Monts Damnés publiée dans le catalogue",
+        "file": "media/images/1--3433495e30.png",
+        "sourceUrl": "https://www.andre-neveu.fr/images/vins/1.png",
+        "sourcePages": [
+          "https://www.andre-neveu.fr/en/vins.html",
+          "https://www.andre-neveu.fr/vins.html",
+          "https://www.andre-neveu.fr/vins/print.en.php?id=1",
+          "https://www.andre-neveu.fr/vins/print.php?id=1"
+        ],
+        "crop": {
+          "left": 19,
+          "top": 190,
+          "width": 67,
+          "height": 103
+        },
+        "cropStatus": "curated",
+        "method": "dominant-color-candidates-from-quantized-pixels",
+        "swatches": [
+          {
+            "color": "#603000",
+            "share": 0.213,
+            "luminance": 0.046
+          },
+          {
+            "color": "#f0d8a8",
+            "share": 0.097,
+            "luminance": 0.705
+          },
+          {
+            "color": "#d8c090",
+            "share": 0.041,
+            "luminance": 0.543
+          },
+          {
+            "color": "#909060",
+            "share": 0.033,
+            "luminance": 0.267
+          },
+          {
+            "color": "#300000",
+            "share": 0.033,
+            "luminance": 0.006
+          }
+        ]
       }
     ]
   },
+  "directions": [
+    {
+      "id": "light-material",
+      "label": "Matière claire",
+      "status": "proposal",
+      "rationale": "Surface claire dérivée des sources les plus lumineuses ; à confirmer sur écran et avec le domaine.",
+      "colors": {
+        "background": "#f5e5c3",
+        "panel": "#fbf2e0",
+        "text": "#303018",
+        "accent": "#908265"
+      }
+    },
+    {
+      "id": "dark-material",
+      "label": "Matière sombre",
+      "status": "proposal",
+      "rationale": "Surface sombre dérivée des sources les plus profondes ; à retenir seulement si les supports du domaine la justifient.",
+      "colors": {
+        "background": "#222211",
+        "panel": "#343423",
+        "text": "#f0d8a8",
+        "accent": "#f0d8a8"
+      }
+    }
+  ],
+  "selectedDirection": null,
+  "previewDirection": "light",
   "colors": {
-    "fondSombre": "#151814",
-    "fondSombreSecondaire": "#1d221b",
-    "panneauSombre": "#242a22",
-    "ligneSombre": "#343c31",
-    "fondClair": "#f5f3ec",
-    "fondClairSecondaire": "#eae5d8",
-    "panneauClair": "#fbfaf7",
-    "ligneClaire": "#d6cfbe",
-    "texteClair": "#1f241d",
-    "texteClairMuted": "#5e655b",
-    "texteSombre": "#f3efe6",
-    "texteSombreMuted": "#aba596",
-    "orChavignol": "#845e23",
-    "orChavignolClair": "#b89047",
-    "rubisPinot": "#74242d",
-    "vertVignoble": "#2b5e48",
-    "vertVignobleClair": "#4d8f71",
-    "silexMineral": "#4a534c"
+    "fondClair": "#f5e5c3",
+    "fondClairSecondaire": "#e7d8b7",
+    "panneauClair": "#fbf2e0",
+    "ligneClaire": "#d2c4a4",
+    "fondSombre": "#222211",
+    "fondSombreSecondaire": "#2e2d1a",
+    "panneauSombre": "#343423",
+    "ligneSombre": "#47432c",
+    "texteClair": "#303018",
+    "texteClairMuted": "#736e52",
+    "texteSombre": "#f0d8a8",
+    "texteSombreMuted": "#aa9a75",
+    "accentPrincipal": "#908265",
+    "accentSurClair": "#908265",
+    "accentSurSombre": "#f0d8a8"
+  },
+  "contrastChecks": {
+    "lightText": 10.81,
+    "darkText": 11.57,
+    "accentOnLight": 3.03,
+    "accentOnDark": 11.57
   },
   "typography": {
-    "headingFont": "'Cinzel', 'Playfair Display', 'Didot', 'Times New Roman', serif",
-    "bodyFont": "'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif",
-    "monoFont": "'JetBrains Mono', monospace"
+    "status": "proposal-needs-human-review",
+    "observation": "L’en-tête emploie une linéale fine aux formes souples ; l’étiquette associe cette légèreté à des caractères historiques. L’identification exacte de la fonte n’est pas établie.",
+    "evidenceAssetId": "header-wordmark",
+    "candidates": [
+      {
+        "id": "humanist-system",
+        "label": "Linéale humaniste",
+        "stack": "'Avenir Next', 'Gill Sans', 'Trebuchet MS', sans-serif",
+        "license": "Polices système ou licence à vérifier selon la fonte retenue",
+        "status": "proposal"
+      },
+      {
+        "id": "label-serif",
+        "label": "Sérif éditoriale pour les cuvées",
+        "stack": "Georgia, 'Times New Roman', serif",
+        "license": "Polices système ; toute substitution web doit être vérifiée",
+        "status": "proposal"
+      }
+    ],
+    "selected": null,
+    "headingFont": "'Avenir Next', 'Gill Sans', 'Trebuchet MS', sans-serif",
+    "bodyFont": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
   }
 }

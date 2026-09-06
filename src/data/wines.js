@@ -22,7 +22,6 @@ export const winesByLanguage = {
         ["Terroir", "Cote des Monts Damnés"],
         ["Sol", "Argilo-calcaire (Terres Blanches)"],
         ["Cépage", "100% Sauvignon Blanc"],
-        ["Vendanges", "Exclusives à la main"],
         ["Vinification", "Cuves thermo-régulées sur lies fines"],
         ["Garde", "À boire jeune ou garde 10 ans et plus"],
         ["Température", "10°C - 12°C"]
@@ -33,7 +32,7 @@ export const winesByLanguage = {
         mouth: "Attaque souple, la bouche est pleine et grasse. Finale complexe avec persistance aromatique sur le souci, l'iris et de jolies nuances fruitées."
       },
       pairings: ["Poissons et viandes blanches en sauces", "Crottin de Chavignol affiné", "Homard grillé"],
-      note: "Issu de la mythique et vertigineuse Côte des Monts Damnés, une cuvée d'une densité et d'une minéralité remarquables.",
+      note: "Cuvée issue de la Côte des Monts Damnés, sur une parcelle en forte pente.",
       packshot: "/wines/packshots/packshot-monts-damnes.png",
       bottle: "/wines/packshots/bottle-monts-damnes.png"
     },
@@ -56,10 +55,10 @@ export const winesByLanguage = {
       tasting: {
         eye: "Jaune pâle, reflets dorés limpides",
         nose: "Nez intense sur un profil variétal-fermentaire : fruits exotiques, pêche de vigne et agrumes mûrs.",
-        mouth: "Arômes intenses, agréable rondeur, bel équilibre et remarquable longueur en bouche."
+        mouth: "Arômes intenses, bouche ronde et finale persistante."
       },
       pairings: ["Apéritif", "Poissons de Loire au beurre blanc", "Viandes blanches rôties", "Fromages de chèvre"],
-      note: "La générosité des vieilles vignes de 50 ans alliée à la fraîcheur ciselée des caillottes.",
+      note: "Cuvée issue de vignes de plus de 50 ans sur des sols de caillottes.",
       packshot: "/wines/packshots/packshot-le-manoir.png",
       bottle: "/wines/packshots/bottle-le-manoir.png"
     },
@@ -82,10 +81,10 @@ export const winesByLanguage = {
       tasting: {
         eye: "Jaune pâle cristallin, reflets argentés",
         nose: "Nez intense et vif sur la fleur de sureau, la menthe verte froissée et la rhubarbe.",
-        mouth: "Gras et rond en bouche, parfaitement équilibré par une trame minérale saline très désaltérante."
+        mouth: "Bouche grasse et ronde, avec une trame saline."
       },
       pairings: ["Apéritif raffiné", "Plateau de fruits de mer", "Poissons en sauce légère"],
-      note: "Un vin d'une éclatante pureté calcaire, d'une vivacité exemplaire.",
+      note: "Cuvée issue des sols calcaires pierreux des Longues Fins.",
       packshot: "/wines/packshots/packshot-lf-calcaire.png",
       bottle: "/wines/packshots/bottle-lf-calcaire.png"
     },
@@ -110,7 +109,7 @@ export const winesByLanguage = {
         mouth: "Sec, droit et fruité. Typicité minérale fumée très marquée, grande tension racée."
       },
       pairings: ["Huîtres de claire", "Coquillages et crustacés", "Crottin de Chavignol demi-sec"],
-      note: "L'expression archétypale du silex sancerrois : tranchant, fumé et d'une noblesse minérale absolue.",
+      note: "Cuvée issue d'argiles à silex sur le coteau de Sancerre.",
       packshot: "/wines/packshots/packshot-grand-fricambault-silex.png",
       bottle: "/wines/packshots/bottle-grand-fricambault-silex.png"
     },
@@ -136,7 +135,7 @@ export const winesByLanguage = {
         mouth: "Puissant, dense et tannique. Matière noble et fondue, finale persistante et racée."
       },
       pairings: ["Viandes rouges grillées ou en sauce", "Gibiers", "Fromages affinés"],
-      note: "Un grand rouge de gastronomie, structuré et patiné par le chêne français. Stock limité.",
+      note: "Pinot noir vinifié et élevé en fûts de chêne français de plusieurs vins. Stock indiqué comme limité dans l'archive.",
       packshot: "/wines/packshots/packshot-vieilles-vignes-rouge.png",
       bottle: "/wines/packshots/bottle-vieilles-vignes-rouge.png"
     },
@@ -161,7 +160,7 @@ export const winesByLanguage = {
         mouth: "Rond, souple et léger. Tanins soyeux, très gouleyant et fruité."
       },
       pairings: ["Charcuteries de terroir", "Volailles rôties", "Fromages de chèvre"],
-      note: "La gourmandise et la fraîcheur du Pinot Noir de Loire dans son expression la plus conviviale.",
+      note: "Pinot noir élevé en cuves thermorégulées.",
       packshot: "/wines/packshots/packshot-grand-fricambault-rouge.png",
       bottle: "/wines/packshots/bottle-grand-fricambault-rouge.png"
     },
@@ -186,14 +185,14 @@ export const winesByLanguage = {
         mouth: "Fruité croquant, vivifiant et rafraîchissant."
       },
       pairings: ["Apéritif estival", "Salades gourmandes", "Grillades au sarment"],
-      note: "Un rosé de saignée d'une élégance rare, fruité et vibrant, idéal pour les beaux jours.",
+      note: "Rosé de saignée vinifié en cuves inox thermorégulées.",
       packshot: "/wines/packshots/packshot-grand-fricambault-rose.png",
       bottle: "/wines/packshots/bottle-grand-fricambault-rose.png"
     }
   },
   en: {
     "monts-damnes": {
-      kicker: "White · Legendary Chavignol Terroir",
+      kicker: "White · Chavignol Terroir",
       name: "Sancerre White — Les Monts Damnés",
       cuvee: "Les Monts Damnés",
       color: "blanc",
@@ -204,17 +203,16 @@ export const winesByLanguage = {
         ["Terroir", "Cote des Monts Damnés"],
         ["Soil", "Limestone-clay (Terres Blanches)"],
         ["Grape", "100% Sauvignon Blanc"],
-        ["Harvest", "Exclusively hand-picked"],
         ["Aging", "Enjoy young or cellar 10+ years"],
         ["Serving", "10°C - 12°C"]
       ],
       tasting: {
         eye: "A very pale platinum colour, with gold and green highlights.",
         nose: "Intense and complex aromas showing great maturity, dominated by fruit, menthol and delicate spices.",
-        mouth: "Fullness, weight, and roundness married with exquisite freshness and a brisk, peppery finish."
+        mouth: "A full, rounded palate followed by a fresh, peppery finish."
       },
-      pairings: ["Fine fish in sauce", "Aged Chavignol goat cheese", "Grilled lobster"],
-      note: "From the mythical, vertiginous slope of Monts Damnés, celebrated for its mineral concentration.",
+      pairings: ["Fish in sauce", "Aged Chavignol goat cheese", "Grilled lobster"],
+      note: "A wine from the steep Monts Damnés slope in Chavignol.",
       packshot: "/wines/packshots/packshot-monts-damnes.png",
       bottle: "/wines/packshots/bottle-monts-damnes.png"
     },
@@ -237,10 +235,10 @@ export const winesByLanguage = {
       tasting: {
         eye: "Pale yellow with limpid golden reflections.",
         nose: "Intense aromatics of exotic fruit, vineyard peach, and ripe citrus.",
-        mouth: "Pleasant roundness, deep balance, and remarkable length."
+        mouth: "A rounded palate with a persistent finish."
       },
       pairings: ["Aperitif", "Loire fish with beurre blanc", "Roasted white meats"],
-      note: "The generosity of 50-year-old vines combined with the chiseled precision of Caillottes limestone.",
+      note: "A wine from vines over 50 years old on Caillottes limestone.",
       packshot: "/wines/packshots/packshot-le-manoir.png",
       bottle: "/wines/packshots/bottle-le-manoir.png"
     },
@@ -263,13 +261,13 @@ export const winesByLanguage = {
         nose: "Vivid notes of elderflower, fresh mint, and rhubarb.",
         mouth: "Fat and rounded on the palate, backed by a thirst-quenching saline minerality."
       },
-      pairings: ["Refined aperitifs", "Seafood platters", "Delicate fish"],
-      note: "A pure and vibrant expression of Sancerre's limestone plateau.",
+      pairings: ["Aperitifs", "Seafood platters", "Fish"],
+      note: "A wine from the stony limestone soils of Les Longues Fins.",
       packshot: "/wines/packshots/packshot-lf-calcaire.png",
       bottle: "/wines/packshots/bottle-lf-calcaire.png"
     },
     "grand-fricambault-silex": {
-      kicker: "White · Pure Flint (Silex)",
+      kicker: "White · Flint (Silex)",
       name: "Sancerre White — Le Grand Fricambault Silex",
       cuvee: "Le Grand Fricambault",
       color: "blanc",
@@ -277,7 +275,7 @@ export const winesByLanguage = {
       commune: "Sancerre",
       facts: [
         ["Appellation", "Sancerre Contrôlée"],
-        ["Soil", "Pure flint (Gunflint clay)"],
+        ["Soil", "Flint clay"],
         ["Grape", "100% Sauvignon Blanc"],
         ["Aging", "5 to 8 years"],
         ["Serving", "10°C - 12°C"]
@@ -288,7 +286,7 @@ export const winesByLanguage = {
         mouth: "Bone dry, straight, and deeply mineral with classic smoky flint notes."
       },
       pairings: ["Oysters", "Shellfish", "Demi-sec Crottin de Chavignol"],
-      note: "The quintessential expression of Sancerrois silex: razor-sharp, smoky, and aristocratic.",
+      note: "A wine from flint clay soils on the Sancerre hillside.",
       packshot: "/wines/packshots/packshot-grand-fricambault-silex.png",
       bottle: "/wines/packshots/bottle-grand-fricambault-silex.png"
     },
@@ -313,7 +311,7 @@ export const winesByLanguage = {
         mouth: "Powerful, dense, and structured with velvety tannins."
       },
       pairings: ["Grilled red meats", "Venison & game", "Mature cheeses"],
-      note: "A serious gastronomic red, patinated by French oak. Limited stock.",
+      note: "Pinot Noir vinified and aged in previously used French oak barrels. The archive lists limited stock.",
       packshot: "/wines/packshots/packshot-vieilles-vignes-rouge.png",
       bottle: "/wines/packshots/bottle-vieilles-vignes-rouge.png"
     },
@@ -334,10 +332,10 @@ export const winesByLanguage = {
       tasting: {
         eye: "Bright, limpid ruby garnet.",
         nose: "Ripe cherry, peony, and a hint of spice.",
-        mouth: "Round, supple, light, and wonderfully fruity."
+        mouth: "Round, supple, light and fruit-led."
       },
-      pairings: ["Artisanal charcuterie", "Roast poultry", "Goat cheese"],
-      note: "The charming, convivial side of Loire Valley Pinot Noir.",
+      pairings: ["Charcuterie", "Roast poultry", "Goat cheese"],
+      note: "Pinot Noir aged in temperature-controlled vats.",
       packshot: "/wines/packshots/packshot-grand-fricambault-rouge.png",
       bottle: "/wines/packshots/bottle-grand-fricambault-rouge.png"
     },
@@ -358,10 +356,10 @@ export const winesByLanguage = {
       tasting: {
         eye: "Bright currant pink with delicate salmon tints.",
         nose: "Wild strawberry, vine peach, and spring flowers.",
-        mouth: "Crisp, lively, and wonderfully refreshing."
+        mouth: "Crisp, lively and fresh."
       },
-      pairings: ["Summer aperitifs", "Gourmet salads", "Barbecue"],
-      note: "A rare saignée rosé of extraordinary finesse and vibrancy.",
+      pairings: ["Summer aperitifs", "Salads", "Barbecue"],
+      note: "A saignée rosé vinified in temperature-controlled stainless-steel vats.",
       packshot: "/wines/packshots/packshot-grand-fricambault-rose.png",
       bottle: "/wines/packshots/bottle-grand-fricambault-rose.png"
     }

@@ -1,35 +1,24 @@
-/*
-  Palette centralisée générée par le pipeline pour Domaine André Neveu :
-  Inspirée des terroirs de Chavignol (Monts Damnés, Silex, Caillottes) et de l'or de son sceau.
-*/
+/* Direction « matière claire » issue du kit Brand DNA du 6 septembre 2026. */
 :root {
-  /* Surfaces sombres */
-  --fond-sombre: #151814;
-  --fond-sombre-secondaire: #1d221b;
-  --panneau-sombre: #242a22;
-  --ligne-sombre: #343c31;
-
-  /* Surfaces claires */
-  --fond-clair: #f5f3ec;
-  --fond-clair-secondaire: #eae5d8;
-  --panneau-clair: #fbfaf7;
-  --ligne-claire: #d6cfbe;
-
-  /* Textes */
-  --texte-clair: #1f241d;
-  --texte-clair-muted: #5e655b;
-  --texte-sombre: #f3efe6;
-  --texte-sombre-muted: #aba596;
-
-  /* Accents identitaires */
-  --or-sceau: #845e23;
-  --or-sceau-clair: #b89047;
-  --rubis-sancerre: #74242d;
-  --vert-vigne: #2b5e48;
-  --vert-vigne-clair: #4d8f71;
-  --silex-mineral: #4a534c;
-
-  /* Typographies */
-  --font-titres: 'Cinzel', 'Playfair Display', 'Didot', 'Times New Roman', serif;
-  --font-corps: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+  --paper: #f5e5c3;
+  --paper-soft: #fbf2e0;
+  --paper-deep: #e7d8b7;
+  --ink: #303018;
+  --ink-muted: #736e52;
+  --mineral: #908265;
+  --mineral-dark: #5f5a3d;
+  --cellar: #222211;
+  --cellar-soft: #343423;
+  --cellar-line: #47432c;
+  --cellar-ink: #f0d8a8;
+  --cellar-muted: #aa9a75;
+  --wine: #603000;
+  --line: #d2c4a4;
+  --white: #fffaf0;
+  --font-display: 'Avenir Next', 'Gill Sans', 'Trebuchet MS', sans-serif;
+  --font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-serif: Georgia, 'Times New Roman', serif;
+  --shadow-soft: 0 20px 60px rgba(48, 48, 24, 0.12);
+  --radius-small: 3px;
+  --page-gutter: clamp(1.15rem, 4vw, 4rem);
 }

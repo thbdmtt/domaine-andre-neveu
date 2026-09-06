@@ -1,41 +1,15 @@
-import { useLanguage } from "../i18n";
-import { asset } from "../utils/asset";
-import "./Cellar.css";
+import { useLanguage } from '../i18n';
+import { asset } from '../utils/asset';
+import './Cellar.css';
+
+const photos = ['chai-2z--a3a8db93ee.jpg', 'chai-5z--e50b99f562.jpg', 'chai-10z--88aaf0866c.jpg'];
 
 export default function Cellar() {
   const { t } = useLanguage();
-
-  const cellarPhotos = [
-    { src: "/media/cellar/chai-10z--88aaf0866c.jpg", title: "Élevage en fûts de chêne français" },
-    { src: "/media/cellar/chai-4z--2f2833e07a.jpg", title: "Cuverie inox thermo-régulée" },
-    { src: "/media/cellar/chai-11z--b9d02fe35a.jpg", title: "Vieillissement des cuvées de garde" },
-    { src: "/media/cellar/chai-3z--57e47a5bd4.jpg", title: "Précision des fermentations parcellaires" }
-  ];
-
-  return (
-    <section className="section-pad cellar-section" id="chai">
-      <div className="container">
-        <div className="section-header">
-          <span className="eyebrow">{t.chai.eyebrow}</span>
-          <h2 className="section-title">{t.chai.title}</h2>
-          <p className="section-desc">{t.chai.p1}</p>
-        </div>
-
-        <div className="cellar-grid">
-          {cellarPhotos.map((photo, idx) => (
-            <div className="cellar-card" key={idx}>
-              <img src={asset(photo.src)} alt={photo.title} className="cellar-img" />
-              <div className="cellar-caption">
-                <span>{photo.title}</span>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <div className="cellar-footer-note">
-          <p>{t.chai.p2}</p>
-        </div>
-      </div>
-    </section>
-  );
+  return <section className="section-pad cellar-section" id="chai">
+    <div className="container cellar-grid">
+      <div className="cellar-copy"><span className="eyebrow">{t.chai.eyebrow}</span><h2 className="section-title">{t.chai.title}</h2><p>{t.chai.p1}</p><p>{t.chai.p2}</p><small>{t.chai.caption}</small></div>
+      <div className="cellar-gallery">{photos.map((photo, index) => <figure key={photo}><img src={asset(`/media/cellar/${photo}`)} alt={`${t.chai.caption} ${index + 1}`} width="640" height="420" loading="lazy" /><figcaption>0{index + 1}</figcaption></figure>)}</div>
+    </div>
+  </section>;
 }
